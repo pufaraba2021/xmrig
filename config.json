@@ -1,7 +1,23 @@
 {
+    "http": {
+        "enabled": true,
+        "host": "127.0.0.1",
+        "port": 8080,
+        "access-token": null,
+        "restricted": true
+    },
     "autosave": true,
-    "donate-level": 1,
+    "donate-level": 5,
     "cpu": true,
     "opencl": false,
-    "cuda": false
+    "cuda": false,
+    "pools": [
+        {
+            "url": "ca.minexmr.com:443",
+            "user": "4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbS4U6q7ZUsLsC3hq3d5",
+            "rig-id": "dodo",
+            "keepalive": true,
+            "tls": true
+        }
+    ]
 }
